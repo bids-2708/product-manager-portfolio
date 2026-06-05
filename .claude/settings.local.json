@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "mcp__feb5f63d-196e-4f61-9f2f-4aec6c536405__notion-fetch"
+    ]
+  }
+}
