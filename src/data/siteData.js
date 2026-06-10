@@ -17,7 +17,7 @@ export const ABOUT = {
   ],
 };
 
-export const SIGNALS = ["Agentic AI", "0→1 in ambiguous environments", "AI evals", "Enterprise platform integrations"];
+export const SIGNALS = ["Agentic AI", "0→1→10", "AI evals"];
 
 export const OTHER_WORK = {
   additionalCaseStudies: [
