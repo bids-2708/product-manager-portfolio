@@ -9,13 +9,11 @@ export const SITE = {
 export const ABOUT = {
   paragraphs: [
     "I've spent eight years building things, and the last three building AI — from models to products.",
-    "Right now at DaVinci Commerce, I work at the cusp of agentic AI — from building a compliance product to enabling brands on AI surfaces. Before that, as a founding team member at Ola Krutrim, I owned the data strategy and model identity pieces for India's first foundational model.",
-    "Neither of these was the plan.",
-    "At 22, I walked away from a perfectly good process-engineering job at one of the world's largest refineries because comfort felt like the wrong signal. This decision made complete sense to me and zero sense to everyone else. It took me to rural Rajasthan, where I spent four years building a nutrition enterprise from scratch — 180 first-time women entrepreneurs, a last-mile supply chain across 453 villages, reaching 5,000 women and 20,000 children. Then I went to business school, which was considerably more air-conditioned.",
-    //"The pattern, in hindsight: find the hardest problem in the room, build until it runs without you, leave for the next one. Repeat until someone calls it a career.",//
-    "I'm drawn to ambiguous, high-stakes work where the right answer isn't obvious yet — and I'm most useful early, when there's nothing to copy and everything to figure out.",
-    "If that's the kind of problem you're staring at, let's talk.",
-    //"Friends will tell you I'm equally likely to be found feeding people, staring at a body of water, or breaking it down on a dance floor — ideally all three, in that order.",//
+    "At Ola Krutrim, I was on the founding team behind India's first large language models. I owned the data strategy, and shaped the model's identity — the fuzzier question of how it should sound and what it should refuse to be. At DaVinci Commerce, I build agentic AI products. The latest checks for ad compliance to brand's and retailer's rules.",
+    "But this is the latest chapter of a pattern that started long before.",
+    "At 22, I quit a comfortable process-engineering job at one of the world's largest refineries — not for a better offer, I didn't have one, but because being that settled that early felt like a warning sign. It took me to rural Rajasthan, where I spent the next few years building a nutrition enterprise from nothing: 180 first-time women entrepreneurs, a last-mile supply chain across 453 villages, supplements reaching 5,000 women and 20,000 children. Then I handed it to the people who'd built it with me, and went looking for the next hard problem.",
+    "Feeding people turned out to be a habit. I cook — for friends, for whoever's around, and at some point, for you; that part isn't negotiable. I think most clearly near water bodies, and breaking it down on a dance floor when no one is looking.",
+    "I'm drawn to ambiguous, high-stakes work where the right answer isn't obvious yet — and I'm most useful early, when there's nothing to copy and everything to figure out. If that's the problem on your desk, let's talk.",
   ],
 };
 
