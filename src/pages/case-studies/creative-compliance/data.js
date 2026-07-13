@@ -42,7 +42,6 @@ export const CC = {
       { obs: "Compliance scores were LLM-generated and sometimes hallucinated", req: "Deterministic scoring", detail: "The final compliance score is computed by pure math — weighted aggregation of structured agent findings. No LLM call. The one number clients care about most has zero hallucination risk." },
       { obs: "Adding new checks caused regressions", req: "Plugin architecture", detail: "Adding a new compliance check = defining an agent specification (name, guideline categories, input keys, prompt template, output schema) and registering it. The orchestrator auto-discovers registered agents. Zero changes to existing agents, scorer, or API." },
     ],
-    tradeoff: "The multi-agent system uses ~60–80% more LLM tokens per creative (7–8 Bedrock calls vs. 1–2). I made the case to leadership that a system that's cheap per-call but hallucinates is more expensive than one that's reliable — a single bad compliance score that sends a client back to manual review costs more than the incremental token spend. Per-agent cost is also optimizable over time via prompt tuning.",
   },
   eval: {
     intro: "Deploying AI into enterprise decision-making requires proving the system works — not once, but continuously. The eval framework is built around one asymmetry: a false negative (system misses a real violation, retailer rejects) is categorically worse than a false positive (system flags something the retailer would have accepted).",
