@@ -112,10 +112,6 @@ export default function CreativeCompliance({c,dark,nav}){
             </div>
           ))}
         </div>
-        <div style={{marginTop:20,padding:"16px 20px",border:`1px solid ${c.bd}`,borderLeft:`3px solid ${c.ac}`,borderRadius:"0 6px 6px 0",background:c.bgC}}>
-          <div style={{fontSize:".78rem",fontWeight:700,color:c.ac,textTransform:"uppercase",letterSpacing:".06em",marginBottom:6}}>Tradeoff accepted</div>
-          <div style={{fontSize:".85rem",color:c.txM,lineHeight:1.65}}>{CC.multiAgent.tradeoff}</div>
-        </div>
       </section>
 
       {/* ── EVALUATION FRAMEWORK ───────────────────── */}
