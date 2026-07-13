@@ -14,7 +14,7 @@ export const CC = {
     pivot: "I chose to de-risk the market question before investing in the architecture.",
     blocks: [
       { label: "What I shipped first", text: "A compliance feature with a single-prompt architecture integrated in our campaign workflow. One LLM call received the full creative, the full guideline document, and all compliance check instructions at once. It produced a compliance report with a score and specific findings." },
-      { label: "Why this was a deliberate bet", text: "I knew the monolithic prompt had a ceiling. Stuffing 8–15K tokens of instructions into a single call is a known risk — the model attends to everything but prioritizes unpredictably. But this architecture could be built in weeks, not months. And the question I needed answered first wasn't \"can we build a reliable compliance system?\" It was \"will enterprise clients adopt the AI compliance feature?\"" },
+      { label: "Why this was a deliberate bet", text: "I knew the monolithic prompt would eventually have a reliability issue. But this architecture could be built in weeks, not months. And the question I needed answered first wasn't \"can we build a reliable compliance system?\" It was \"will enterprise clients adopt the AI compliance feature?\"" },
     ],
   },
   protected: {
