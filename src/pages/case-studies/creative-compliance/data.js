@@ -32,7 +32,7 @@ export const CC = {
       { title: "Debugging was impossible", desc: "When a compliance report contained a questionable finding, there was no way to isolate which check went wrong. The entire prompt was a black box — I could see the input and the output, but not which instruction the model was attending to when it made a specific claim." },
       { title: "Extensibility had hit a wall", desc: "Pressure to add new checks was coming from both layers. On the retailer side: WCAG color-contrast scoring. On the brand side: font detection against brand whitelists, tone alignment with brand voice. Adding any new check meant modifying the single prompt, risking regressions — and because retailer and brand rules lived in the same prompt, a new brand check could destabilize a retailer check." },
     ],
-    conclusion: "These weren't surprises. They were the failure modes I expected from the monolithic architecture, now confirmed with real usage data. Client usage patterns told me exactly what the redesigned system needed: per-check isolation, per-check observability, and a plugin model for new checks.",
+    conclusion: "Client usage patterns told me exactly what the redesigned system needed: per-check isolation, per-check observability, and a plugin model for new checks.",
   },
   multiAgent: {
     intro: "Every architectural requirement traced back to a specific V1 observation.",
