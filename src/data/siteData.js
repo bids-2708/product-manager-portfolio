@@ -12,8 +12,8 @@ export const ABOUT = {
     "At Ola Krutrim, I was on the founding team behind India's first large language models. I owned the data strategy, and shaped the model's identity — the fuzzier question of how it should sound and what it should refuse to be. At DaVinci Commerce, I build agentic AI products. The latest checks for ad compliance to brand's and retailer's rules.",
     "But this is the latest chapter of a pattern that started long before.",
     "At 22, I quit a comfortable process-engineering job at one of the world's largest refineries — not for a better offer, I didn't have one, but because being that settled that early felt like a warning sign. It took me to rural Rajasthan, where I spent the next few years building a nutrition enterprise from nothing: 180 first-time women entrepreneurs, a last-mile supply chain across 453 villages, supplements reaching 5,000 women and 20,000 children. Then I handed it to the people who'd built it with me, and went looking for the next hard problem.",
-    "Feeding people turned out to be a habit. I cook — for friends, for whoever's around, and at some point, for you; that part isn't negotiable. I think most clearly near water bodies, and breaking it down on a dance floor when no one is looking.",
-    "I'm drawn to ambiguous, high-stakes work where the right answer isn't obvious yet — and I'm most useful early, when there's nothing to copy and everything to figure out. If that's the problem on your desk, let's talk.",
+    "Feeding people turned out to be a habit. I cook — for friends, for whoever's around, and at some point, for you; that part isn't negotiable. I think most clearly near water bodies, and break it down on a dance floor when no one is looking.",
+    "I'm drawn to ambiguous, high-stakes work where the right answer isn't obvious yet — and I'm most useful early, when there's nothing to copy and everything to figure out. If that's the problem on your desk, let's talk!",
   ],
 };
 
