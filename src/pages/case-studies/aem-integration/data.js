@@ -44,19 +44,19 @@ export const AEM = {
   decisions: [
     {
       label: "Configurable metadata writeback",
-      text: "Finished creatives land back in AEM with the right taxonomy tags, channel codes, and usage-rights flags or downstream workflows break. Instead of hardcoding this client's schema, admins define writeback fields and derivation logic at setup. +2 weeks to build. Zero engineering for the next AEM client.",
+      text: "Finished creatives land back in AEM with the right taxonomy tags, channel codes, and usage-rights flags or downstream workflows break. Instead of hardcoding this client's schema, admins define writeback fields and derivation logic at setup.",
     },
     {
       label: "UUID-based smart fetch",
-      text: "The client's product feeds referenced AEM Asset IDs, not URLs. A DAM reorganization could silently break every creative. An internal API resolves UUIDs to current URLs and metadata at fetch time — eliminating an entire class of failures right when client confidence is being earned.",
+      text: "The client's product feeds referenced AEM Asset IDs. An internal API resolves UUIDs to current URLs and metadata at fetch time.",
     },
     {
-      label: "Delete-and-recreate setup",
-      text: "Initial configuration provisions dedicated S3 infra — folders, access paths, caches — tightly coupled to the connection params. Supporting in-place edits meant rebuilding provisioning for partial updates. A one-time setup constraint was the right trade; it's a rare, documented action.",
+      //label: "Delete-and-recreate setup",
+      //text: "Initial configuration provisions dedicated S3 infra — folders, access paths, caches — tightly coupled to the connection params. Supporting in-place edits meant rebuilding provisioning for partial updates. A one-time setup constraint was the right trade; it's a rare, documented action.",
     },
     {
-      label: "Export path lock",
-      text: "Destinations are configurable at setup, but locked during an active export. Changing the folder mid-run risks partial writes and assets landing in the wrong place in a production DAM. Reliability > flexibility — the lock releases the moment the job completes.",
+      label: "Export path is configurable",
+      text: "Destinations are configurable at setup.",
     },
   ],
 
