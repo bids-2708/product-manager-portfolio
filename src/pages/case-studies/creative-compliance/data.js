@@ -44,26 +44,25 @@ export const CC = {
     ],
   },
   eval: {
-    intro: "Deploying AI into enterprise decision-making requires proving the system works — not once, but continuously. The eval framework is built around one asymmetry: a false negative (system misses a real violation, retailer rejects) is categorically worse than a false positive (system flags something the retailer would have accepted).",
+    intro: "The eval framework is built around one asymmetry: a false negative (system misses a real violation, retailer rejects) is categorically worse than a false positive (system flags something the retailer would have accepted).",
     matrix: {
       tn: { label: "TRUE NEGATIVE (TN)", desc: "Correct clearance. The creative is clean and the system correctly passes it. No reviewer time wasted." },
-      fn: { label: "FALSE NEGATIVE (FN) — primary failure mode", desc: "The system misses a real violation. The creative gets pushed to placement and is rejected by the retailer. Minimising FN on MH rules is the primary optimisation target." },
-      fp: { label: "FALSE POSITIVE (FP) — secondary failure mode", desc: "The system flags a violation the retailer would have accepted. Acceptable in early adoption — humans are the final gate. High FP rate over time causes reviewer fatigue." },
+      fn: { label: "FALSE NEGATIVE (FN) — primary failure mode", desc: "The system misses a real violation. The creative gets pushed and is rejected by the retailer." },
+      fp: { label: "FALSE POSITIVE (FP) — secondary failure mode", desc: "The system flags a violation the retailer would have accepted. Acceptable in early adoption — humans are the final gate." },
       tp: { label: "TRUE POSITIVE (TP)", desc: "Correct violation catch. The system flags a real problem before the creative reaches the retailer. Core value delivery." },
     },
     principles: [
-      { title: "Ground truth: retailer decisions, not human annotations", detail: "Corpus sourced directly from retailer acceptance/rejection data — creatives that Amazon or Walmart actually approved or rejected. 150+ creatives, stratified: 30% retailer-accepted, 40% retailer-rejected, 20% edge cases, 10% cross-cutting violations." },
+      { title: "Ground truth: retailer decisions", detail: "Corpus sourced directly from retailer acceptance/rejection data — creatives that Amazon actually approved or rejected. 150+ creatives, stratified." },
       { title: "MH rule recall as the primary gate", detail: "Not all violations are equal. A WCAG contrast failure gets rejected every time (must-have). A borderline font substitution might pass (good-to-have). Primary gate: MH rule recall ≥ 95%. Overall recall ≥ 85% is secondary." },
-      { title: "Deliberate FP tolerance in early adoption", detail: "With humans as the final gate, over-flagging is acceptable friction. FP tolerance: ≤ 15% Phase 1 → ≤ 10% full cutover → ≤ 5% at eight weeks post-launch." },
-      { title: "Shadow mode for regression, not accuracy", detail: "The Go monolith hallucinates, so agreement with it is not a signal of correctness. Shadow mode catches regressions only. All accuracy measurement runs against the retailer-sourced ground truth corpus." },
+      { title: "Shadow mode for regression", detail: "Shadow mode catches regressions only. All accuracy measurement runs against the retailer-sourced ground truth corpus." },
       { title: "Per-agent observability", detail: "Every validation produces a full trace with per-agent spans. Debugging went from \"the compliance system is wrong\" to \"the font agent retrieved an irrelevant guideline chunk because the category tagging on chunk #4 is ambiguous.\"" },
-      { title: "Ongoing, not one-and-done", detail: "50 live validations sampled per week, reviewed against known retailer outcomes. Any MH rule disagreement escalated to a prompt tuning ticket within 48 hours. Corpus is versioned and re-evaluated when retailers update specs." },
+      { title: "Ongoing, not one-and-done", detail: "50 live validations sampled per week, reviewed against known retailer outcomes." },
     ],
   },
   outcomes: [
     { value: "$1.1M", label: "Annual enterprise savings", detail: "Reduced human compliance reviews from avg. 3 per creative to 1 — AI handles first-pass, humans validate edge cases only" },
     { value: "80%+", label: "First-touch approval rate", detail: "Creatives passing AI compliance check approved by retailers on first submission" },
-    { value: "~40s", label: "Time-to-verdict", detail: "Per creative (V1), trending below 30s with agents running in parallel" },
+    { value: "~40s", label: "Time-to-verdict", detail: "Per creative trending around 30s-40s with v2 architecture" },
     { value: "0%", label: "Workflow disruption", detail: "Campaign launch time within 10% of pre-compliance baseline — non-blocking design" },
   ],
   skills: [
