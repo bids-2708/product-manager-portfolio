@@ -32,7 +32,7 @@ export const AEM = {
       {
         label: "Self-Serve",
         title: "No DaVinci ops in the loop",
-        text: "If every import/export required a support ticket, we'd just convert the client's manual cost into ours. The whole flow — connect, browse, import, assemble, export — had to run without engineering involvement.",
+        text: "If every import/export required a support ticket, we'd just convert the client's manual cost into ours. The whole flow — connect, browse, import, assemble, export — had to run without engineering and support involvement.",
       },
     ],
   },
