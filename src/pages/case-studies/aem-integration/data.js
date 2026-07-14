@@ -55,20 +55,6 @@ export const AEM = {
       text: "Destinations are configurable at setup.",
     },
   ],
-
-  alignment: {
-    stakeholders: [
-      { label: "Creative team", want: "Speed" },
-      { label: "IT team", want: "Metadata integrity" },
-      { label: "Brand team", want: "Quality control" },
-    ],
-    poc: "Before committing to the build, I pushed for a client-side POC — their team ran the proposed workflow on real assets. That forced the three stakeholder groups to agree the flow worked for their process before a line of code was written.",
-    phases: [
-      { n: "Phase 1", title: "Config + UUID smart fetch", text: "Shipped the setup page and UUID-based asset resolution. Let the client's team begin using DaVinci on their Holiday POC campaign immediately." },
-      { n: "Phase 2", title: "Full bidirectional sync", text: "AEM folder browsing, metadata-filtered import, bulk asset ingestion, and configurable metadata writeback on export." },
-    ],
-  },
-
   outcomes: [
     { value: "~$2M", label: "Annual savings", detail: "Against the ~$4M baseline — combination of template assembly and eliminated transfer overhead." },
     { value: "~30K", label: "Manual uploads eliminated / yr", detail: "Bidirectional sync — assets flow without anyone downloading, renaming, or re-uploading." },
