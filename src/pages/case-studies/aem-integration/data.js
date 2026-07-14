@@ -51,10 +51,6 @@ export const AEM = {
       text: "The client's product feeds referenced AEM Asset IDs. An internal API resolves UUIDs to current URLs and metadata at fetch time.",
     },
     {
-      //label: "Delete-and-recreate setup",
-      //text: "Initial configuration provisions dedicated S3 infra — folders, access paths, caches — tightly coupled to the connection params. Supporting in-place edits meant rebuilding provisioning for partial updates. A one-time setup constraint was the right trade; it's a rare, documented action.",
-    },
-    {
       label: "Export path is configurable",
       text: "Destinations are configurable at setup.",
     },
