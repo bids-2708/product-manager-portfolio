@@ -63,11 +63,11 @@ export const CC = {
     { value: "$1.1M", label: "Annual enterprise savings", detail: "Reduced human compliance reviews from avg. 3 per creative to 1 — AI handles first-pass, humans validate edge cases only" },
     { value: "80%+", label: "First-touch approval rate", detail: "Creatives passing AI compliance check approved by retailers on first submission" },
     { value: "~40s", label: "Time-to-verdict", detail: "Per creative trending around 30s-40s with v2 architecture" },
-    { value: "0%", label: "Workflow disruption", detail: "Campaign launch time within 10% of pre-compliance baseline — non-blocking design" },
+    { value: "0%", label: "Workflow disruption", detail: "Campaign launch time within 10% of pre-compliance baseline" },
   ],
   skills: [
-    { skill: "Product Sense", detail: "Scoped MVP to dynamic-assets-only, chose non-blocking UX, designed two-layer guideline architecture — each decision optimized for adoption over completeness" },
-    { skill: "AI & Technical Fluency", detail: "Diagnosed architectural failure modes, defined multi-agent requirements, designed vector retrieval approach for guidelines" },
-    { skill: "Analytical Sense", detail: "Ground-truth dataset design, MH-rule recall gating, shadow mode comparison, per-agent diagnostic traces" },
+    { skill: "Product Sense", //detail: "Scoped MVP to dynamic-assets-only, chose non-blocking UX, designed two-layer guideline architecture — each decision optimized for adoption over completeness"// },
+    { skill: "AI & Technical Fluency", //detail: "Diagnosed architectural failure modes, defined multi-agent requirements, designed vector retrieval approach for guidelines"// },
+    { skill: "Analytical Sense", //detail: "Ground-truth dataset design, MH-rule recall gating, shadow mode comparison, per-agent diagnostic traces"// },
   ],
 };

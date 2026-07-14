@@ -131,12 +131,9 @@ export default function AEMIntegration({ c, dark, nav }) {
       {/* ── SKILL SIGNALS ──────────────────────────── */}
       <section style={sec}>
         <SL t="Skill Signals" c={c} />
-        <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
           {AEM.skills.map(sd => (
-            <div key={sd.skill} style={{ display: "flex", gap: 14, alignItems: "flex-start" }}>
-              <span style={{ display: "inline-block", padding: "4px 0", borderRadius: 100, background: c.tgBg, color: c.tgTx, fontFamily: "'Plus Jakarta Sans',sans-serif", fontSize: ".72rem", fontWeight: 600, letterSpacing: ".02em", whiteSpace: "nowrap", flexShrink: 0, minWidth: 168, textAlign: "center" }}>{sd.skill}</span>
-              <span style={{ fontSize: ".85rem", color: c.txM, lineHeight: 1.6, flex: 1 }}>{sd.detail}</span>
-            </div>
+            <span key={sd.skill} style={{ display: "inline-block", padding: "6px 14px", borderRadius: 100, background: c.tgBg, color: c.tgTx, fontFamily: "'Plus Jakarta Sans',sans-serif", fontSize: ".78rem", fontWeight: 600, letterSpacing: ".02em", whiteSpace: "nowrap" }}>{sd.skill}</span>
           ))}
         </div>
       </section>
