@@ -66,8 +66,8 @@ export const CC = {
     { value: "0%", label: "Workflow disruption", detail: "Campaign launch time within 10% of pre-compliance baseline" },
   ],
   skills: [
-    { skill: "Product Sense", //detail: "Scoped MVP to dynamic-assets-only, chose non-blocking UX, designed two-layer guideline architecture — each decision optimized for adoption over completeness"// },
-    { skill: "AI & Technical Fluency", //detail: "Diagnosed architectural failure modes, defined multi-agent requirements, designed vector retrieval approach for guidelines"// },
-    { skill: "Analytical Sense", //detail: "Ground-truth dataset design, MH-rule recall gating, shadow mode comparison, per-agent diagnostic traces"// },
+    { skill: "Product Sense" },
+    { skill: "AI & Technical Fluency" },
+    { skill: "Analytical Sense" },
   ],
 };
