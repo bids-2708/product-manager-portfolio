@@ -1,7 +1,7 @@
 export const AEM = {
   hero: {
     title: "Enterprise DAM Integration",
-    subtitle: "Turning a $4M manual creative-ops workflow into a self-serve platform capability.",
+    subtitle: "Turning a manual creative-ops workflow into a self-serve platform capability",
     company: "DaVinci Commerce",
     duration: "2024 – 2025",
     role: "Senior Product Manager — end-to-end ownership from business scoping through delivery",
@@ -15,7 +15,7 @@ export const AEM = {
       { v: "~$4M", l: "annual manual-ops cost" },
     ],
     paragraphs: [
-      "A Fortune 100 fashion retailer produces 70–100 editorial creatives every day — hero banners, category pages, email assets, paid and organic social. Unlike PDP imagery, editorial work requires human creative judgment. That judgment can't be automated away; the manual work surrounding it can.",
+      "A Fortune 100 fashion retailer produces 70–100 editorial creatives every day — hero banners, category pages, email assets, paid and organic social. Unlike PDP imagery, editorial work requires human creative judgment.",
       "Two bottlenecks consumed ~$4M a year: transforming each editorial image into a dozen aspect ratios, and assembling the finished creative. DaVinci's template-based assembly could deliver both speed and creative control — but only if assets could move in and out of DaVinci without re-creating the bottleneck elsewhere.",
       "The catch: every asset lived in Adobe Experience Manager, their enterprise DAM and source of truth. Any solution that still required manually downloading from AEM and re-uploading finished creatives would just relocate the manual cost.",
     ],
