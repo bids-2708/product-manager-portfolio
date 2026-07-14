@@ -53,7 +53,7 @@ export const CC = {
     },
     principles: [
       { title: "Ground truth: retailer decisions", detail: "Corpus sourced directly from retailer acceptance/rejection data — creatives that Amazon actually approved or rejected. 150+ creatives, stratified." },
-      { title: "MH rule recall as the primary gate", detail: "Not all violations are equal. A WCAG contrast failure gets rejected every time (must-have). A borderline font substitution might pass (good-to-have). Primary gate: MH rule recall ≥ 95%. Overall recall ≥ 85% is secondary." },
+      { title: "MH rule recall as the primary gate", detail: "Not all violations are equal. A WCAG contrast failure gets rejected every time (must-have). A borderline font substitution might pass (good-to-have)." },
       { title: "Shadow mode for regression", detail: "Shadow mode catches regressions only. All accuracy measurement runs against the retailer-sourced ground truth corpus." },
       { title: "Per-agent observability", detail: "Every validation produces a full trace with per-agent spans. Debugging went from \"the compliance system is wrong\" to \"the font agent retrieved an irrelevant guideline chunk because the category tagging on chunk #4 is ambiguous.\"" },
       { title: "Ongoing, not one-and-done", detail: "50 live validations sampled per week, reviewed against known retailer outcomes." },
